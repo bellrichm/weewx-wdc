@@ -632,7 +632,7 @@ export const D3GaugeDiagram: FunctionComponent<GaugeDiagramBaseProps> = (
     // Observation label, eg. Outside Temperature.
     textWrap
       .append("text")
-      .text(props.label)
+      .text(he.decode(props.label))
       .attr("class", "gauge-label")
       .attr("width", 350)
       .attr("text-anchor", "middle")

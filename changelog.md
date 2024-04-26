@@ -937,3 +937,5 @@ index 465d4ad..aa8bad6 100644
 - GH-181 [BUG] xAxis: Date mismatch in combined charts. Especially when using cumulative aggregation. Feel free to comment if you have more infos, or also noticed this issue.
 
 # Next
+
+- Fixed gauge label decoding. GH-271
