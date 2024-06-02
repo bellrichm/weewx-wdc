@@ -939,3 +939,4 @@ index 465d4ad..aa8bad6 100644
 # Next
 
 - Fixed gauge label decoding. GH-271
+- Add Moon phases and planet name translations GH-264
